@@ -3,9 +3,11 @@
 
 
 void StringsGetStr (char* str, int size);
-int StringsFindCommand (char *str, int size, char command[]);
-void StringsFindWords(char *str, int size, char command[]);
-	
+unsigned char StringsFindCommand (char *str, char command[]);
+void StringsFindWords(char *str,char command[]);
+void StringsCommand (char *str, char *position);
+void StringsDynamicsGetStr (char **str, size_t n);
+
 
 
 
